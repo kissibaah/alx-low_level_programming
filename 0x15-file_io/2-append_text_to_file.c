@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * append_text_to_file - This Appends a text at the end of file.
- * @filename: Pointer to the name file's name.
- * @text_content: String to add to the end of the file.
+ * append_text_to_file - Appends some text at the end of a file.
+ * @filename: this is a pointer to the name of the file.
+ * @text_content: The string to add to the end of the file.
  *
- * Return: If the function fails or filename is NULL - -1.
- *         If the file does not exist the user lacks write permissions - -1.
- *         Or Else - 1.
+ * Return: If the function fails or filename is NULL > -1.
+ *         If the file does not exist the user lacks write permissions > -1.
+ *         Otherwise - 1.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
